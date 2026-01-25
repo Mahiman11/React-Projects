@@ -1,0 +1,79 @@
+.ts-container{
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.t-left{
+    color: white;
+    font-weight: bold;
+    gap: 2rem;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column; 
+}
+.t-name{
+    color: orange;
+    font-weight: bold;
+    font-size: 25px;
+}
+.th-text1{
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-stroke-color: white;
+    font-size: 40px;
+}
+.t-left>:nth-child(3){
+    font-size: 40px;
+}
+.t-left>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}    
+
+
+.t-right{
+    flex: 1;
+    position: relative;
+}
+
+#imgs{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+.t-right>:nth-child(1){
+    position: absolute;
+    width: 17rem;height: 20rem;
+    border: 2px solid orange;
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+.t-right>:nth-child(2){
+    position: absolute;
+    width: 17rem;height: 19rem;
+    border: 2px solid orange;
+    background-color: orange;
+    top: 4rem;
+    right: 7rem;
+}
+
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+}
+.arrows>img{
+    width: 1.8rem;
+    cursor: pointer;
+}

@@ -1,0 +1,107 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    padding: 1rem 1rem;
+}
+.logo{
+   font-size: 28px;
+   font-weight: bold;
+   font-style: italic;
+}
+.logo img{
+    height: 60px;
+    padding-right: 6px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    transition: 0.2s ease-in;
+}
+ul li:hover{
+    color: orange;
+}
+
+/* css for programs */
+
+.programs{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   padding: 0 2rem;
+   margin-top: 6rem;
+}
+.p-heading{
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin: 0 2rem;
+  gap: 2rem;
+  color: white;
+  font-style: italic;
+}
+.ph-1{
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-stroke-color: white;
+}
+.ph-3{
+  color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-stroke-color: white;
+}
+/*categories ko style kro*/
+.p-categories{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.p-categories :hover{
+    background-color:rgb(222, 62, 88);
+}
+/*each category ko kro ab  style*/
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+/*ek ek child in boxes ke andarka pkdo or set kro*/
+.category>:nth-child(1)
+{
+    width: 2rem;
+    height: 2rem;fill: white;
+}
+.category>:nth-child(2)
+{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.category>:nth-child(3)
+{
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+.join-now{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.join-now img{
+    width: 1.5rem;
+}

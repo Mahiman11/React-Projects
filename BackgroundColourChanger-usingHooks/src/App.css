@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: full;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  height: 100px;
+  width: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+#red{
+  background-color: red;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+}
+#green{
+  background-color: green;
+  color: black;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+}
+#ba{
+  background-color: wheat;
+  color: black;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+}
+#pu{
+  background-color: purple;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+}

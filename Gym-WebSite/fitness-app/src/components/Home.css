@@ -1,0 +1,183 @@
+.home{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+/*left of home*/
+
+.left-h{
+    flex: 3;
+    min-width: 330px;
+    padding: 1rem;   
+}
+
+.add{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-left: 7rem;
+}
+
+.h-heading{
+    font-size: 50px;
+    line-height: 80px;
+    color: white;
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+.h-heading_1{
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-stroke-color: white;
+}
+
+.h-para{
+    font-size: 19px;
+    margin-left: 7rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.n-fig{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+
+.c-m-f{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    font-size: 14px;
+    color: rgb(169, 154, 154);
+}
+.numbers{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.calories{
+    background-color: rgb(169, 154, 154);
+    border-radius: 10px;
+    padding: 0.8rem;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.calories img{
+    height: 70px;
+}
+.c-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    font-size: 20px;
+}
+.c-text{
+    color: green;
+    font-size: 17px;
+}
+
+.h-bttns{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 2rem;
+}
+.start-b{
+    padding: 7px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.learn-b{
+    padding: 7px 20px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid orange;
+    font-weight: bold;
+}
+
+
+/*right of home*/
+
+.right-h{
+    flex: 1;
+    background-color: orange;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-h_button{
+    position: absolute;
+    right: 5rem;top: 3rem;
+    padding: 12px 14px;
+    background-color: rgb(244, 242, 242);
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.r-h_button:hover{
+    background-color: rgb(154, 119, 55)
+}
+
+.right-one {
+  background-color: rgb(96, 61, 15);
+  color: white;
+  padding: 1rem;
+  margin-top: 7rem;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-one img{
+    height: 30px;
+    width: 30px;
+}
+.h-rate{
+    font-size: 15px;
+    color: grey;
+}
+.h-banner img{
+    height: 500px;
+}
+
+
+
+
+
+
+
